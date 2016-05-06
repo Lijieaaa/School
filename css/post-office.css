@@ -1,0 +1,418 @@
+*{margin:0;padding:0;text-decoration: none;color:#575656;outline: none;border-style: none;}
+body {margin:0; padding:29px00; font:sans-serif;background:#B5DFF6;overflow-x:hidden;} 
+table,td,tr,th{font-size:15px;} 
+li{list-style-type:none;} 
+ol,ul {list-style:none;} 
+h1,h2,h3,h4,h5,h6{font-weight: bold;} 
+address,cite,code,em,th,i {font-weight:normal; font-style:normal;} 
+img{border: none;}
+
+.post-office {
+    width: 850px;
+    background:#fff;
+    margin: 0px auto;
+    padding-top: 50px;
+
+    
+}
+
+.clr {
+    color: #f85659;
+}
+
+
+.clearfix {
+    zoom: 1;
+}
+.lf {
+    float: left;
+}
+
+.post-office-title .post-office-title-h h4 {
+    /* line-height: 36px; */
+    font-size: 25px;
+    font-weight: 700;
+    padding: 0px 20px;
+    color: #777777;
+    background:#D0D5DB ;
+    margin-left: 60px;
+}
+.post-office-title .post-office-title-c {
+    font: 12px/36px;
+    color: #aaaaaa;
+    margin-right: 23px;
+}
+
+.rt {
+    float: right;
+}
+.clearfix:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+/*头部*/
+.post-office .company-brief {
+    padding-top: 17px;
+    padding-left: 128px;
+    padding-bottom: 40px;
+    border-bottom: 1px dashed #aaaaaa;
+}
+.company-name {
+    font-size: 14px;
+    color: rgb(85, 85, 85);
+}
+.mt17 {
+    margin-top: 17px;
+}
+
+.company-brief .company-name span {
+    line-height: 42px;
+}
+
+.company-name .company-name-title {
+    padding-right: 25px;
+}
+
+.company-name .company-name-cn {
+    width: 403px;
+    line-height: 40px;
+    height: 40px;
+    border: 1px solid #aaaaaa;
+}
+
+.relative {
+    position: relative;
+}
+
+.absolute {
+    position: absolute;
+}
+
+#companyname {
+    overflow: hidden;
+    width: 379px;
+}
+.company-name-cn .input-box {
+    background-color: transparent;
+}
+
+.company-name-cn .input-box {
+    background: rgba(0,0,0,0);
+    z-index: 5;
+    width: 370px;
+    left: 0px;
+    top: 2px;
+    line-height: 37px;
+    height: 37px;
+    padding-left: 10px;
+}
+/*不要忘记填写。。。*/
+.form-validate-prompt {
+    color: #ff0000;
+    font-size: 12px;
+    width: px;
+    margin-left: 87px;
+    display: none;
+}
+.education-icon {
+    width: 12px;
+    height: 7px;
+    background: url(../img/content_arrow_2.png) no-repeat;
+    right: 6px;
+    top: 17px;
+    z-index: 3;
+}
+/*职位选择*/
+.company-name-cn .job-choice {
+    display: block;
+    height: 216px;
+    
+    background: #FFFFFF;
+    margin-top: 42px;
+    z-index: 99;
+}
+.company-name-cn .job-choice-left {
+    display: none;
+    height: 216px;
+    width: 150px;
+    border-right: 1px solid #dddddd;
+    border-left: 1px solid #AAAAAA;
+    border-bottom: 1px solid #aaa;
+    float: left;
+    overflow-y: scroll;
+}
+.company-name-cn .job-choice li {
+    height: 30px;
+    line-height: 30px;
+}
+.company-name-cn .job-choice-left span {
+    margin-left: 14px;
+    line-height: 30px;
+}
+.company-name-cn .job-choice-center {
+    overflow: visible;
+    display: none;
+    height: 216px;
+    width: 120px;
+    border-right: 1px solid #ddd;
+    border-bottom: 1px solid #aaa;
+    float: left;
+    position: relative;
+}
+.company-name-cn .job-choice-center span {
+    border-radius: 10px;
+    padding: 5px;
+    margin-left: 24px;
+}
+.company-name-cn .job-choice-right {
+    border-bottom: 1px solid #aaa;
+    display: none;
+    height: 216px;
+    width: 193px;
+    background: #f8f8f8;
+    float: left;
+    overflow-y: scroll;
+}
+.company-Internship {
+    padding-top: 17px;
+    padding-left: 128px;
+}
+/*工作性质*/
+.company-Internship .c-form {
+    line-height: 42px;
+    padding-right: 25px;
+}
+.fs14 {
+    font-size: 14px;
+}
+
+.clr5 {
+    color: #555555;
+}
+.c-table span {
+    vertical-align: middle;
+}
+
+.c-table span {
+    margin-left: 5px;
+}
+.mr17 {
+    margin-right: 17px;
+}
+.dib {
+    display: inline-block;
+}
+.internshipcn {
+    width: 125px;
+    height: 45px;
+    overflow: hidden;
+    line-height: 45px;
+    text-align: center;
+    border: 1px solid #4C98BB;
+    background: #fff
+    
+}
+a {
+    cursor: pointer;
+    text-decoration: none;
+    display: block;
+}
+/*实习要求*/
+.company-internship {
+    top: 2px;
+    /* height: 886px; */
+}
+.company-Internship-list {
+    padding-left: 128px;
+}
+.company-name {
+    font-size: 14px;
+    color: rgb(85, 85, 85);
+}
+
+.mt17 {
+    margin-top: 17px;
+}
+
+.company-name .company-name-title {
+    padding-right: 25px;
+}
+
+
+.company-Internship-list .Internship-w {
+    width: 183px;
+}
+
+
+.company-Internship-list .Internship-w input {
+    width: 130px;
+    height: 37px;
+    line-height: 37px;
+    left: 2px;
+    top: 2px;
+    z-index: 1;
+}
+
+.Internship-w i {
+    right: 10px;
+}
+
+.tar {
+    text-align: right;
+}
+.Internship-w span:nth-of-type(2) {
+    padding-right: 5px;
+    color: #aaaaaa;
+}
+.space-l {
+    line-height: 40px;
+    padding: 0px 10px;
+    font-weight: 700;
+    color: #aaaaaa;
+}
+/*学历要求*/
+
+#xueli {
+    width: 175px;
+}
+
+
+.company-name .educ-box {
+    width: 185px;
+    z-index: 999;
+}
+.educ-box .educ-input-box {
+    border-top: 0;
+    width: 184px;
+}
+.educ-input-box {
+    width: 373px;
+    padding-top: 2px;
+    border: 1px #AAAAAA solid;
+}
+
+.educ-input-box li {
+    text-align: left;
+    padding-left: 12px;
+}
+.educ-input-box {
+    position: absolute;
+    display: none;
+    width: 184px;
+    background: #FFFFFF;
+    border: 1px solid #DDDDDD;
+    margin-top: 43px;
+    border-top: 0;
+    z-index: 99;
+}
+/*学历选上*/
+.educ-input-box .educ-input-li-active {
+    background: #adcdef;
+}
+/*城市*/
+.company-Internship-list .Internship-w-small {
+    width: 116px;
+}
+#city {
+    line-height: 40px;
+}
+
+.company-Internship-list .Internship-w-small input {
+    width: 88px;
+}
+.size-input {
+    position: absolute;
+    left: 0;
+    margin-left: 10px;
+    height: 40px;
+    z-index: 3;
+    background: rgba(0,0,0,0);
+}
+
+.company-Internship-list .Internship-w-big {
+    margin-left: 11px;
+    width: 274px;
+}
+
+.company-Internship-list span {
+    line-height: 42px;
+}
+
+.clr5 {
+    color: #555555;
+}
+.db {
+    display: block;
+}
+/*优先专业*/
+.selected-major {
+    overflow: hidden;
+    padding-left: 85px;
+    padding-bottom: 5px;
+    line-height: 15px;
+    vertical-align: middle;
+}
+.job-description .job-description-cn {
+    width: 500px;
+    border: none;
+}
+.text-area {
+    margin-left: 10px;
+    margin-top: 20px;
+    width: 682px;
+    height: 282px;
+    border: 1px solid #aaaaaa;
+}
+.company-name {
+    font-size: 14px;
+    color: rgb(85, 85, 85);
+}
+.text-area .textarea-cn {
+    margin-left: 0;
+    width: 655px;
+    height: 240px;
+    padding: 10px;
+    border: 0px;
+    border: none;
+    outline: none;
+    border-style: none;
+    overflow: auto;
+    z-index: 1;
+    resize: none;
+    font-size: 20px;
+}
+.text-area .length {
+    bottom: -10px;
+    right: 25px;
+    z-index: 4;
+}
+
+/*最后*/
+.next-step {
+    background: #fff;
+    padding-top: 40px;
+}
+.next-step-cn {
+    background: #f2f2f2 none repeat scroll 0 0;
+    padding: 20px 0;
+    text-align: center;
+    width: 100%;
+}
+.next-step-cn a {
+    line-height: 36px;
+    padding: 0px 23px;
+    background: #64d286;
+    color: #fff;
+    border-radius: 2px;
+    font-size: 16px;
+}
+.que{
+    display: block;
+    width: 100px;
+    height: 40px;
+    border-radius: 2px;
+     margin:0 auto;
+     background: #4DBFE2;
+     cursor: pointer;
+}

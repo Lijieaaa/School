@@ -1,0 +1,175 @@
+*{margin:0;padding:0;text-decoration: none;color: #333;outline: none;border-style: none;}
+body {margin:0; padding:29px00; font:sans-serif;background:#fff;overflow-x:hidden;} 
+table,td,tr,th{font-size:15px;} 
+li{list-style-type:none;} 
+ol,ul {list-style:none;} 
+h1,h2,h3,h4,h5,h6{font-weight: bold;} 
+address,cite,code,em,th {font-weight:normal; font-style:normal;} 
+.ad-message {
+    height: 50px;
+    padding: 0 30px;
+    background-color: #537BA2;
+}
+.ad-message .ad-top-left {
+    float: left;
+    margin-top: 9px;
+}
+.ad-message .ad-change-btn {
+    float: left;
+    margin-top: 6px;
+}
+.ad-message .ad-list-btn {
+    display: inline-block;
+    width: 16px;
+    height: 13px;
+    background-position: -62px -29px;
+}
+
+.scm {
+    background: url(../img/min_bg.png) no-repeat;
+}
+.ad-message .ad-search-sel {
+    float: left;
+    height: 30px;
+    margin-right: 8px;
+}
+ .ad-message .ad-search-sel select {
+    min-width: 85px;
+    height: 30px;
+    border: 0 none;
+    padding: 0 5px;
+}
+ .ad-message .ad-search-box {
+    margin-left: 75px;
+}
+ .ad-message .ad-search-sel {
+    float: left;
+    height: 30px;
+    margin-right: 8px;
+}
+ .ad-message .ad-search-sel select {
+    min-width: 85px;
+    height: 30px;
+    border: 0 none;
+    padding: 0 5px;
+}
+option {
+    font-weight: normal;
+    display: block;
+    white-space: pre;
+    min-height: 1.2em;
+    padding: 0px 2px 1px;
+}
+ .ad-message .ad-search-cha {
+    float: left;
+    height: 30px;
+    position: relative;
+}
+ .ad-message .ad-search-cha .ad-search-input {
+    width: 266px;
+    height: 30px;
+    vertical-align: middle;
+    border: 0 none;
+    padding-left: 5px;
+    padding-right: 36px;
+}
+.ad-message .ad-search-cha .ad-search-btn {
+    width: 20px;
+    height: 20px;
+    background-position: -61px -46px;
+    position: absolute;
+    top: 5px;
+    right: 10px;
+    border: 0 none;
+    cursor: pointer;
+}
+.clear:after {
+    content: ".";
+    height: 0;
+    visibility: hidden;
+    display: block;
+    clear: both;
+}
+.ad-message .ad-top-right {
+    float: right;
+    padding-right: 40px;
+}
+.ad-message .ad-notice {
+    height: 30px;
+    float: left;
+    margin-top: 12px;
+    padding-right: 55px;
+}
+ .ad-message .ad-notice ul li {
+    float: left;
+    display: inline;
+    margin: 0 33px;
+}
+ .ad-message .ad-notice ul li .nt1 {
+    background-position: -25px 0px;
+}
+
+ .ad-message .ad-notice ul li a {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    position: relative;
+}
+
+.ad-message .ad-notice ul li .nt2 {
+    background-position: -25px -35px;
+}
+
+
+ .ad-message .ad-notice ul li .nt3 {
+    background-position: -26px -71px;
+}
+
+ .ad-message .ad-notice .nt-count {
+    width: 25px;
+    height: 23px;
+    line-height: 23px;
+    text-align: center;
+    font-size: 12px;
+    color: #fff;
+    display: inline-block;
+    position: absolute;
+    top: -8px;
+    right: -22px;
+    background-position: -60px 0;
+}
+
+
+.ad-message .ad-welcom {
+    float: right;
+    margin-top: 6px;
+}
+
+
+.ad-message .ad-wel-img {
+    float: left;
+}
+
+
+img {
+    vertical-align: top;
+    border: 0;
+}
+
+
+ .ad-message .ad-wel-text {
+    margin-left: 46px;
+    height: 36px;
+}
+
+
+.ad-message .ad-wel-text .font-wel {
+    line-height: 18px;
+}
+
+
+.ad-message .ad-wel-text .font-wel {
+    line-height: 18px;
+}
+
+

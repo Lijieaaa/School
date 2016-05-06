@@ -1,0 +1,162 @@
+*{margin:0;padding:0;text-decoration: none;color:#5D5D5D;outline: none;border-style: none;}
+body {margin:0; padding:29px00; font:sans-serif;background:#fff;overflow-x:hidden;} 
+table,td,tr,th{font-size:15px;} 
+li{list-style-type:none;} 
+ol,ul {list-style:none;} 
+h1,h2,h3,h4,h5,h6{font-weight: bold;} 
+address,cite,code,em,th {font-weight:normal; font-style:normal;} 
+img{border: none;}
+.nav{background:#39D48E;width:100%; min-width: 1362px;height:60px;
+	border-bottom:2px solid #A9A9A9;box-shadow:0 0 10px #B0ADAD}
+.nav nav{height:60px;line-height: 60px;
+	float:left;margin-left:280px; }	
+.nav nav ul li{list-style: none;float: left;font-weight: bold;display: inline-block;
+font-size: 23px; color: #fff;}
+.nav a{display: inline-block;line-height: 60px;padding:0 20px;margin-right: 50px;}
+.login{float: right;position: relative;right: 20px;}
+.login a{margin-right: 20px;display: inline-block;padding:0;}
+.login span{display: inline-block;width: 1px;height: 30px;
+	background:#EFECEC;position: absolute;left:45px;margin-top:15px;}
+.nav  nav a:hover{color:#E3E532;border-bottom: 3px solid #E3E532;transition:all 0.3s;}
+#container {
+    min-height: 100%;
+    height: auto !important;
+    height: 100%;
+    position: relative;
+    padding-bottom: 130px;
+    overflow: hidden;
+    background: #D3DADB;
+}
+.box {
+    width: 70%;min-width: 1024px;
+    margin: 35px auto 20px;overflow: hidden;
+}
+.jb_det_left {
+    width: 70%;
+    background: #fff;
+    overflow: hidden;
+    height: auto;
+    float: left;padding:30px;
+    display: inline;margin-right: 30px
+}
+.jb_det_left_top{
+	height: 70px;
+	line-height: 70px;  
+	border-bottom: 1px solid  #ddd;
+}
+.job_name{
+	font-size: 1.8em;color:#4D98CD;font-weight: bold;margin-left: 30px;
+}
+.update_time{
+	font-size: 1em;float: right;margin-right: 10px;
+}
+
+.jb_det_left_mid{
+	width: 100%;line-height: 80px;border-bottom: 1px solid  #ddd;
+
+} 
+.jb_det_left_mid span {
+    margin-left: 10px;
+    font-size: 16px;
+    color: #333;
+    
+    padding: 0 0 0 22px;line-height: 22px;
+}
+.jb_det_left_mid .daymoney {
+    margin-left: 7px;width: 16px;
+    background: url("../img/xiangqing.png") no-repeat;
+    background-position: 0 0;
+}
+.city {
+    display: inline-block;
+    
+    background: url("../img/xiangqing.png") no-repeat;
+    background-position: 0 -22px;
+}
+.education {
+    width: 16px;
+    background: url("../img/xiangqing.png") no-repeat;
+    background-position: 0 -42px;
+}
+.days {
+    width: 16px;
+    background: url("../img/xiangqing.png") no-repeat;
+    background-position: 0 -66px;
+}
+.month {
+    width: 16px;
+    background: url("../img/xiangqing.png") no-repeat;
+    background-position: 0 -87px;
+}
+.jb_description {
+    font-size: 16px;
+    color: #333;
+    font-weight: 500;
+    margin: 30px 0 0 30px;
+}
+
+.dec_content {
+    font-size: 14px;
+    color: #555;
+    display: block;
+    margin: 30px 40px 0 30px;
+}
+
+.closing_date {
+    font-size: 16px;
+    color: #333;
+    font-weight: 500;
+    margin: 30px 0 0 30px;
+}
+.date {
+    font-size: 14px;
+    color: #555;
+    margin: 30px 0 0 30px;
+}
+.jb_det_left_bottom {
+    width: 704px;
+    height: 96px;
+    background: #fff;
+    margin: 30px 0;
+    padding: 30px auto;
+    border-top: 1px solid #ddd;
+}
+.jb_det_left_bottom a {
+    display: block;cursor: pointer;
+    text-align: center; 
+    width: 160px;
+    height: 50px;
+    background: #02a0e9;
+    margin: 30px auto;
+    line-height: 50px;
+    color: #fff;
+    font-size: 16px;
+    border-radius: 6px;
+    transition: all 0.5s;
+}
+.jb_det_left_bottom a:hover{
+	background: #4D98CD
+}
+.jb_det_right {
+    width: 20%;
+    float: left;text-align: center;
+}
+.jb_det_right_top p {
+    font-size: 20px;font-weight: bold;
+    color: #333;
+    display: block;
+    text-align: center;
+    margin-top: 10px;
+}
+.infor {
+    width: 220px;
+    border-top: 1px solid #ddd;
+    margin: 20px auto;
+}
+.jb_det_right_top{
+	margin-bottom: 20px;background: #fff;padding:20px;
+}
+.jb_det_right_bottom{
+	margin-top:20px;background: #fff;
+	height: 50px;line-height: 50px;
+}

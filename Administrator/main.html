@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>remuse</title>
+<link rel="stylesheet" href="../css/adremuse.css">
+<link rel="stylesheet" type="text/css" href="../css/city-picker.css"><!-- 城市选择 -->
+<script src="../js/adremuse.js"></script>
+<script type="text/javascript" src="../js/jquery-2.1.3.min.js"></script>
+
+</head>
+<body>
+	<div class="main-myResume">
+		<div id="name-mr" class="name-mr">
+			<div class="bg-name"><img src="../img/resumeBg.jpg"width="100%"></div>
+			<div class="pro-name">
+				<div class="perPhoto webuploader-container"><div class="webuploader-pick">
+					<i class="camera"></i>
+					<img src="../img/photo.png">
+					<div id="tips" class="default"><div>头像最大400K,支持gif,jpg,jpeg格式。</div></div>
+				</div><div id="rt_rt_1ag58a29h1hhcoet1m2j8t176r1" style="position: absolute; top: 0px; left: 0px; width: 138px; height: 138px; overflow: hidden; bottom: auto; right: auto;"><input id="file" type="file" capture="camera" name="file" class="webuploader-element-invisible" multiple="multiple" accept="image/*"><label id="camera" for="file" style="opacity: 0; width: 100%; height: 100%; display: block; cursor: pointer; background: rgb(255, 255, 255);"></label></div></div>
+				<div class="wz-name">
+					<h3>黎洁</h3>
+					<p title=""></p>
+				</div>
+			</div>
+		</div>
+		<!-- 基本信息 -->
+		<div id="base-mr" class="base-mr">
+			<!-- 基本信息编辑 -->
+			<div class="editBase">
+				
+			</div>
+			<script>
+				var baseInfoJson = {
+					'basicInfoName': '二狗子',
+					'basicInfoGender': 1,
+					'birth': "1987-6",
+					'basicInfoHeight':180,
+					'basicInfoDegreeId':2,
+					'basicInfoMarry': 0,
+					'licence':'100123871298371928379879',
+					'basicInfoLivingId':18,
+					'basicInfoLivingCn':"安徽省",
+					'basicInfoDomicileId':18,
+					'basicInfoDomicileCn':'安徽省',
+					'workTime':'2003-6',
+					'basicInfoIsOverseas':2,
+					'basicInfoDrivId':3,
+					'basicInfoSensitiveMobile':'13810331480',
+					'basicInfoSensitiveEmail':'mmw@f.com',
+					'basicInfoSensitiveWeixin':'ahj3hakhj',
+					'basicInfoSensitiveQq':'12345',
+					'basicInfoWonderfullPoint':'asdhfkajdfh1231352'
+				};
+			</script>
+			<!-- 基本信息内容 -->
+			<div id="inforBase" class="inforBase">
+				<div class="changeBase"><i onclick="show()" class="m-icon i-pen"></i></div>
+				<div class="lfInBase">
+					<ul>
+						<li><i class="m-icon i-person"></i>
+							<div class="conInBase">
+								<p>
+								<em>女</em>	<em>27</em>						    	
+								</p>
+									<p>
+									</p>
+								</div>
+							</li>
+							<li><i class="m-icon i-file"></i>
+								<div class="conInBase">
+									<p>
+										<em>本科</em>
+										<em> 一年以下工作经验  </em>
+									</p>
+								</div>
+							</li>
+						</ul>
+					</div>
+					<div class="rtInBase">
+						<ul>
+							<li><i class="m-icon i-target"></i>
+								<div class="conInBase">
+									<p>
+										<em>目前居住地：辽宁-大连</em>						    	</p>
+										<p>
+										</p>
+									</div>
+								</li>
+								<li><i class="m-icon i-phone"></i>
+									<div class="conInBase">
+										<p><em>15840820382</em></p>
+									</div>
+								</li>
+							</ul>
+						</div>
+					</div>
+<script>
+	function show(){
+		var inforBase=document.getElementById('inforBase');
+		var editBase=document.getElementById("editBase");
+		inforBase.style.display="none";
+		editBase.style.display="block"
+	}
+</script>
+				
+       <!-- 基本信息填写 -->
+		<div  id="editBase"class="editBase" style="display: none;">
+		<div class="conedBase">
+			<div class="edBase01">
+				<div class="lfBase01">
+					<div class="wordMr"><em>*</em>姓名</div>
+					<div class="inputMr">
+						<input name="basicInfo.name" type="text" value="黎洁" class="txt must formTerms">
+					</div>
+				</div>
+				<div class="rtBase01">
+					<div class="wordMr"><em>*</em>性别</div>
+					<div  id="sex"class="inputMr iptrio" data-type="sex" data-val="2">
+						<a href="javascript:;" data-val="1" class="iptRadio boy"><i class="m-icon i-boy"></i>男</a>
+						<a href="javascript:;" data-val="2" class="iptRadio girl checked"><i class="m-icon i-girl"></i>女</a>
+					</div>
+					<input id="sexDummy" class="formTerms" type="hidden" name="basicInfo.gender" value="2">
+				</div>
+			</div>
+			<div class="edBase01">
+				<div class="lfBase01">
+					<div class="wordMr"><em>*</em>出生年月</div>
+					<div id="birth" class="inputMr">
+						<div  id="ipt-child"class="ipt-child">
+							<input id="birthDay" class="txt must formTerms" value="1989年二月" name="birth" type="text" readonly="true">
+							<i class="m-icon i-dn ico-intxt"></i>
+						<div id="calen" class="calender" style="left: 0px; top: 42px; display:none;"><div class="calenderContent"><div class="calenderTable"><div class="getyear"><div  id="yearSelectWrap"class="yearSelectWrap"><span class="yearSelect" >1989<i class="icon-ar ar-dn"></i></span><div class="calender_ys" id="calender_ys"><div class="calender_ys_pre"><i class="icon-ar ar-left"></i></div><ul id="laydate_ys_list" class="laydate_ys_list clear"><li class="" y="1984">1984年</li><li class="" y="1985">1985年</li><li class="" y="1986">1986年</li><li class="" y="1987">1987年</li><li class="" y="1988">1988年</li><li y="1989" class=" on">1989年</li><li class="" y="1990">1990年</li><li class="" y="1991">1991年</li><li class="" y="1992">1992年</li><li class="" y="1993">1993年</li></ul><div class="calender_ys_next"><i class="icon-ar ar-right"></i></div></div></div></div></div><div class="tablebg"><table id="calender" class="calendertb" cellpadding="0" cellspacing="1"><tbody><tr><td data-num="1">一月</td><td data-num="2" class="hover">二月</td><td data-num="3">三月</td><td data-num="4">四月</td></tr><tr><td data-num="5">五月</td><td data-num="6">六月</td><td data-num="7">七月</td><td data-num="8">八月</td></tr><tr><td data-num="9">九月</td><td data-num="10">十月</td><td data-num="11">十一月</td><td data-num="12">十二月</td></tr></tbody></table></div></div></div>
+						</div>
+					</div>
+				</div>
+				<div class="rtBase01">
+					<div class="wordMr"><em></em>身高</div>
+					<div class="inputMr">
+						<input pattern="/^[1-9]\d*$/" min="100" max="250"id="height" type="text" data-regexp="num" value="" name="basicInfo.height" data-num="3" class="txt formTerms">
+						<i class="iptLast">CM</i>
+					</div>
+				</div>
+			</div>
+			<div class="edBase01">
+				<div class="lfBase01">
+					<div class="wordMr"><em>*</em>最高学历</div>
+					<div class="inputMr">
+						<div id="hEducation" data-val="5" class="ipt-child selc-child">
+							<span class="ipt-spn" data-type="degree">本科<i class="icon-ar ar-dn"></i></span><ul style="height: 210px; overflow-y: scroll;"><li data-val="1" value="1">博士</li><li data-val="2" value="2">EMBA</li><li data-val="3" value="3">MBA</li><li data-val="4" value="4">硕士</li><li data-val="5" value="5" class="on">本科</li><li data-val="6" value="6">大专</li><li data-val="7" value="7">高职</li><li data-val="8" value="8">高中</li><li data-val="9" value="9">职高</li><li data-val="10" value="10">中专</li><li data-val="11" value="11">中职</li><li data-val="12" value="12">中技</li><li data-val="13" value="13">初中</li><li data-val="14" value="14">其他</li></ul>
+						</div>
+						<input id="hEducationDummy" class="formTerms option" type="hidden" name="basicInfo.degreeId" value="5">
+					</div>
+				</div>
+				<div class="rtBase01">
+					<div class="wordMr"><em></em>婚姻状况</div>
+					<div  id="inputMr" class="inputMr iptrio" data-type="married" data-val="">
+						<a href="javascript:;" data-val="1" class="iptRadio checked">未婚</a>
+						<a href="javascript:;" data-val="0" class="iptRadio">已婚</a>
+					</div>
+					<input id="marriedDummy" class="formTerms" type="hidden" name="basicInfo.marry" value="0">
+				</div>
+			</div>
+			<div class="edBase01">
+				<div class="lfBase01">
+					<div class="wordMr"><em>*</em>目前居住地</div>
+					<div class="inputMr" >
+						<div class="ipt-child">
+							<input id="nowLive" readonly="true" data-val="13,134" type="text" class="txt must" value="辽宁,大连" title="辽宁,大连">
+							<input id="nowLiveDummy" class="formTerms mult" type="hidden" name="basicInfo.living.fullpath" value="13,134">
+							<i class="m-icon i-dn ico-intxt"></i>
+						</div>
+					</div>
+				</div>
+				<div class="rtBase01">
+					<div class="wordMr"><em></em>户口所在地</div>
+					<div class="inputMr">
+						<div class="ipt-child">
+							<input id="rpr" readonly="true" data-val="" value="" title="" type="text" class="txt">
+							<input id="rprDummy" class="formTerms mult" type="hidden" name="basicInfo.domicile.fullpath" value="">
+							<i class="m-icon i-dn ico-intxt"></i>
+						</div>
+					</div>
+				</div>
+			</div>
+<script type="text/javascript" src="../js/cityData.js"></script>
+<script type="text/javascript" src="../js/IIInsomniaCityPicker.js"></script>
+<script>
+    var cityPicker = new IIInsomniaCityPicker({
+        data: data,
+        target:'nowLive',
+        valType: 'k-v',
+        hideCityInput: {
+            name: 'city',
+            id: 'city'
+        },
+        hideProvinceInput: {
+            name: 'province',
+            id: 'province'
+        },
+    });
+
+    cityPicker.init();
+       var mudidi = new IIInsomniaCityPicker({
+        data: data,
+        target:'rpr',
+        valType: 'k-v',
+        hideCityInput: {
+            name: 'city',
+            id: 'city'
+        },
+        hideProvinceInput: {
+            name: 'province',
+            id: 'province'
+        },
+    });
+
+    mudidi.init();
+</script>
+			<div class="edBase01">
+				<div class="lfBase01">
+					<div class="wordMr"><em>*</em>参加工作时间</div>
+					<div class="inputMr">
+						<div class="ipt-child">
+							<input id="workTime" class="txt must formTerms" name="workTime" value="2016-03" type="text" readonly="true">
+							<i class="m-icon i-dn ico-intxt"></i>
+						</div>
+					</div>
+				</div>
+				<div class="rtBase01">
+					<div class="wordMr"><em></em>海外工作经验</div>
+					<div id="haiwai" class="inputMr iptrio" data-type="abroadExp" data-val="">
+						<a href="javascript:;" data-val="2" class="iptRadio checked">无</a>
+						<a href="javascript:;" data-val="1" class="iptRadio">有</a>
+					</div>
+					<input id="abroadExpDummy" class="formTerms" type="hidden" name="basicInfo.isOverseas" value="2">
+				</div>
+			</div>
+			<div class="edBase01">
+				<div class="lfBase01">
+					<div class="wordMr"><em>*</em>手机</div>
+					<div class="inputMr">
+						<input name="basicInfo.sensitive.mobile" data-regexp="mobile" type="text" value="15840820382" class="txt must formTerms" pattern="/^1[358][0123456789]\d{8}$/"required="required" >
+					</div>
+				</div>
+				<div class="rtBase01">
+					<div class="wordMr"><em></em>电子邮箱</div>
+					<div class="inputMr">
+						<input name="basicInfo.sensitive.email" data-regexp="email" type="email" value="" class="txt formTerms">
+					</div>
+				</div>
+			</div>
+			<div class="edBase01">
+				<div class="wordMr"><em></em>一句话自我介绍</div>
+				<div class="inputMr ta">
+					<div class="num"><em>0</em>/50</div>
+					<textarea class="formTerms" data-num="50" name="basicInfo.wonderfullPoint" cols="" rows=""></textarea>
+				</div>
+			</div>
+			<div class="wrap-btn">
+				<input type="submit" value="保存" class="btn" id="edBase-submit">
+				<input type="button" value="取消" class="btn white" id="edBase-cancel">
+			</div>
+		</div>
+	</div>
+</div>
+</body>
+</html>

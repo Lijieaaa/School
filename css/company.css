@@ -1,0 +1,81 @@
+*{margin:0;padding: none;text-decoration: none;color:#5D5D5D;}
+body {margin:0; padding:29px00; font:15px"\5B8B\4F53",sans-serif;background:#ffffff;} 
+table,td,tr,th{font-size:15px;} 
+li{list-style-type:none;} 
+ol,ul {list-style:none;} 
+h1,h2,h3,h4,h5,h6{font-weight: bold;} 
+address,cite,code,em,th {font-weight:normal; font-style:normal;} 
+img{border: none;}
+.nav{background:#39D48E;width: 1362px;height:60px;
+	border-bottom:2px solid #A9A9A9;box-shadow:0 0 10px #B0ADAD}
+.nav nav{height:60px;line-height: 60px;
+	float:left;margin-left:280px; }	
+.nav nav ul li{list-style: none;float: left;font-weight: bold;display: inline-block;
+font-size: 23px; color: #fff;}
+.nav a{display: inline-block;line-height: 60px;padding:0 20px;margin-right: 50px;}
+.login{float: right;position: relative;right: 20px;}
+.login a{margin-right: 20px;display: inline-block;padding:0;}
+.login span{display: inline-block;width: 1px;height: 30px;
+	background:#EFECEC;position: absolute;left:45px;margin-top:15px;}
+.nav  nav a:hover{color:#E3E532;border-bottom: 3px solid #E3E532;transition:all 0.3s;}
+/*焦点图轮播*/
+#container { width: 1362px; height: 400px; overflow: hidden; position: relative;}
+#list { width: 600%; height: 400px; position: absolute; z-index: 1;}
+#list img { float: left;width: 1362px;height: 400px;}
+#buttons { position: absolute; height: 10px; width: 150px; z-index: 2; bottom: 20px; left: 45%;}
+#buttons span { cursor: pointer; float: left; border: 2px solid #ccc; width: 10px; height: 10px; border-radius: 50%;  margin-right: 10px;}
+#buttons .on {  border: 2px solid  #38F292}
+.arrow { cursor: pointer; display: none; line-height: 60px; text-align: center; font-size: 36px; font-weight: bold; width: 60px; height: 60px;  position: absolute; z-index: 2; top: 180px; background-color: RGBA(0,0,0,.3); color: #fff;}
+.arrow:hover { background-color: RGBA(0,0,0,.7);}
+#container:hover .arrow { display: block;}
+#prev { left: 30px;}
+#next { right: 30px;}
+/*公司选择*/
+.content{
+	width: 1200px;overflow: hidden;margin-top:50px;margin-left: 80px;
+}
+.content .content-left{width: 950px;float: left;overflow: hidden;display: inline-block;}
+.content .positionHead{width: 950px;overflow: hidden;}
+.content .filterBox{height:140px;background: #DEDEDE;padding-left: 20px;padding-top: 10px;}
+.content .filterBox dl{ height:40px;line-height: 40px;margin-top: 1px;}
+.content .filterBox dl dt ,.filterBox dl p,.order dl dt{font-weight: bold}
+.content .filterBox dl dt,.filterBox dl dd,.order dl dt, .order dl dd{float: left;display: inline-block;margin-left:10px;
+}
+.filterBox dl p{float: right;margin-right: 20px;}
+.filterBox dl dd a:first-child,.order dl dd a:first-child{background:#39D48E;margin-left: 10px }
+.filterBox dl dd a,.order dl dd a{padding:2px 5px;}
+.filterBox dl dd a:hover,.order dl dd a:hover{background:#39D48E }
+/*默认排序*/
+.content .content-left .order{height: 40px;line-height: 40px;
+	background:#DEDEDE;padding-left: 20px;padding-top: 10px;margin-top:20px;}
+/*公司列表*/
+.company_list{
+	width: 100%;overflow: hidden;margin-top: 30px;
+	}
+.company_list .meila{
+	width: 420px;float: left;margin: 20px;border: 1px solid #CBCACA;
+}
+.company_list .meila:hover{border:1px solid #37D1A1;}
+.company_list .meila .item_cont img{width: 130px;height: 130px;border:  1px solid #E4E4E4;
+	display: inline-block;float: left;margin: 30px;}
+.company_list .meila .item_cont a {display: block;font-size:20px;line-height:40px;}
+.item_cont a span{color:#35BD7A;font-weight: bold;}
+.item_cont dl{margin:10px;width:150px;height: 130px;float: left; text-align: center;}
+.item_cont p{clear: both;margin:20px;float: left;}
+.item_cont dl dt a{ font-size:25px;font-weight: bold;}
+.company_state {margin:0;clear: both;text-align: center;background: #37D1A1;line-height: 40px;height: 40px;}
+.company_state em{display: inline-block;font-style: normal;
+	margin-left:30px; line-height: 40px;height: 40px;}
+.company_list .meila .item_cont dl dt a:after{content: "";display: block;height:1px;width:100%;margin-top:1px;
+background:#35BD7A;transform:scale(0,0);transition:all 0.3s;}
+.company_list .meila .item_cont dl dt a:hover:after{transform:scale(1,1);}
+/*上下翻页*/
+.pager_container {width:350px;margin:30px auto;}
+.pager_container span{display: inline-block;
+	border: 1px solid #37D1A1; cursor: pointer;
+	height:30px;line-height: 30px;padding:5px 8px; }
+.pager_container .pager_is_current,.pager_container span:hover{background:#37D1A1;color: #fff }	
+.sideBar { float: right;}
+.sideBar ul li a img{width: 100px; height:100px;margin-bottom: 10px}
+.sideBar ul li {width: 100px;height: 130px;margin-top:60px;text-align: center;margin-right: 50px}
+.sideBar ul li a:hover{color:#37D1A1 }

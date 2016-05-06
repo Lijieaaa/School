@@ -1,0 +1,521 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>home</title>
+	<link rel="stylesheet" href="css/style.css">
+	<script src="js/home.js"></script>
+</head>
+<body style="overflow-x:hidden">
+	<div class="topImg">
+	<a href="http://campus.163.com/#/home"></a>
+	</div>
+	<div class="nav">
+
+	     <nav>
+	     	<ul>
+	     		<li><a href="#"style="color:#E3E532;border-bottom: 3px solid #E3E532;">首页</a></li>
+	     		<li><a href="company.html">公司</a></li>
+	     		<li><a href="#">内推</a></li>
+	     		<li><a href="#">加油站</a></li>
+	     		<li><a href="personal.html">个人中心</a></li>
+	     	</ul>
+	     </nav>
+		<div class="login"><a href="login.html" >登陆</a><span></span>
+		<a href="zhuce.html">注册</a>
+	</div>
+
+    </div>
+		<div class="city">
+    <strong>全国站</strong>
+    <em id="changeCity">[切换城市]</em>
+</div>
+
+<div class="cityMask" id="cityMask"></div>
+<div class="Box" id="Box"style="display:none">
+<div class="shadow"> </div>
+    <div class="cityBox" id="cityBox">
+        <div class="cityBox-top"><h3>切换城市</h3>
+        <a href="#" class="offbox" id="offbox"></a></div>
+        <div class="cityBox-text"><h3>亲爱的用户您好:</h3>
+         <p>切换城市分站，让我们为您提供更准确的职位信息</p></div>
+         <p class="checkTips">"点击进入"
+            <a  class="tab" href="#">全国站</a>
+            "or 切换到以下城市"
+          </p>
+         <ul id="clearfix"class="clearfix">
+          
+            <li> <a href="#" class="tab">全国站</a></li>
+            <li> <a href="#" class="tab">北京站</a></li>
+            <li> <a href="#" class="tab">上海站</a></li>
+            <li style="display:block;width:auto;float:none;clear:both;"></li>
+            <li> <a href="#" class="tab">广州站</a></li>
+            <li> <a href="#" class="tab">深圳站</a></li>
+            <li> <a href="#" class="tab">成都站</a></li>
+            <li style="display:block;width:auto;float:none;clear:both;"></li>
+            
+         </ul>
+         <p class="changeCity_footer">其他城市正在开通中，敬请期待～</p>
+    </div>
+  </div>
+ 
+        <div id="menu"class="menu">
+        <h2>职位分类</h2>
+         <ul>
+         <li><h3>技术</h3><span></span><span class="tip"></span>
+        <b> <a href="webFE.html">web前端</a> <a href="#">php</a>
+         <a href="#">Android</a><a href="#">测试</a><a href="#">JAVA工程师</a></b>
+         <div class="leftdiv">
+                   <dl>
+                        <dt><a href="webFE.html">后端开发</a></dt>
+                        <dd>
+                            <a href="#">Java</a> <a href="#">Python</a> <a href="#">PHP</a> <a href="#">C#</a>
+                            <a href="#">.NET</a> <a href="#">全栈工程师</a> <a href="#">数据挖掘</a>
+                        </dd>
+                    </dl>
+                    <dl>
+                        <dt><a href="webFE.html">前端开发</a></dt>
+                        <dd>
+                            <a href="#">COCOS2D-X</a> <a href="#">web前端</a> <a href="#">HTML5</a> <a href="#">JavaScript</a>
+                            <a href="#">U3D</a> <a href="#">Flash</a>
+                        </dd>
+                    </dl>
+                    <dl>
+                        <dt><a href="#">移动开发</a></dt>
+                        <dd>
+                            <a href="#">IOS</a> <a href="#">WP</a> <a href="#">ANDROID</a> <a href="#">HTML5</a>
+                        </dd>
+                    </dl>
+                    <dl>
+                        <dt><a href="#">测试</a></dt>
+                        <dd>
+                            <a href="#">测试工程师</a> <a href="#">自动化工程师</a> <a href="#">性能测试</a> <a href="#">功能测试</a> <a
+                                href="#">其他</a>
+                        </dd>
+                    </dl>
+                    <dl>
+                        <dt><a href="#">运维</a></dt>
+                        <dd>
+                            <a href="#">运维工程师</a> <a href="#">运维开发工程师</a> <a href="#">网络安全</a> <a href="#">系统安全</a>
+                            <a href="#">运维经理</a> <a href="#">其他</a>
+                        </dd>
+                    </dl>
+                    <dl>
+                        <dt><a href="#">DBA</a></dt>
+                        <dd>
+                            <a href="#">MySQL</a> <a href="#">SQLServer</a> <a href="#">Oracle DB2</a> <a href="#"> 数据仓库 </a>
+                        </dd>
+                    </dl>
+                    <dl class="fore7">
+                        <dt><a href="#">高端职位</a></dt>
+                        <dd>
+                            <a href="#">技术经理</a> <a href="#">技术总监</a> <a href="#">架构师</a> <a href="#">CTO</a>
+                            <a href="#">运维总监</a> <a href="#">项目总监</a> <a href="#">测试总监</a> <a href="#">安全专家</a>
+                            <a href="#">技术合伙人</a> <a href="#">其他</a>
+                        </dd>
+                    </dl>     
+
+            </div></li>
+         <li><h3>产品</h3><span></span><span class="tip"></span><dd><b><a href="#">产品经理</a><a href="#">Android</a><a href="#">游戏策划</a><a href="#">产品设计师</a></b>
+               <div class="leftdiv"> <dl>
+                                       <dl>
+                        <dt><a href="#">后端开发</a></dt>
+                        <dd>
+                            <a href="#">Java</a> <a href="#">Python</a> <a href="#">PHP</a> <a href="#">C#</a>
+                            <a href="#">.NET</a> <a href="#">全栈工程师</a> <a href="#">数据挖掘</a>
+                        </dd>
+                    </dl>
+                    <dl>
+                        <dt><a href="#">前端开发</a></dt>
+                        <dd>
+                            <a href="#">COCOS2D-X</a> <a href="#">web前端</a> <a href="#">HTML5</a> <a href="#">JavaScript</a>
+                            <a href="#">U3D</a> <a href="#">Flash</a>
+                        </dd>
+                    </dl>
+                    <dl>
+                        <dt><a href="#">移动开发</a></dt>
+                        <dd>
+                            <a href="#">IOS</a> <a href="#">WP</a> <a href="#">ANDROID</a> <a href="#">HTML5</a>
+                        </dd>
+                    </dl>
+                    <dl>
+                        <dt><a href="#">测试</a></dt>
+                        <dd>
+                            <a href="#">测试工程师</a> <a href="#">自动化工程师</a> <a href="#">性能测试</a> <a href="#">功能测试</a> <a
+                                href="#">其他</a>
+                        </dd>
+                    </dl>
+                    <dl>
+                        <dt><a href="#">DBA</a></dt>
+                        <dd>
+                            <a href="#">MySQL</a> <a href="#">SQLServer</a> <a href="#">Oracle DB2</a> <a href="#"> 数据仓库 </a>
+                        </dd>
+                    </dl>
+                    <dl class="fore7">
+                        <dt><a href="#">高端职位</a></dt>
+                        <dd>
+                            <a href="#">技术经理</a> <a href="#">技术总监</a> <a href="#">架构师</a> <a href="#">CTO</a>
+                            <a href="#">运维总监</a> <a href="#">项目总监</a> <a href="#">测试总监</a> <a href="#">安全专家</a>
+                            <a href="#">技术合伙人</a> <a href="#">其他</a>
+                        </dd>
+                    </dl>  
+                    </div>
+         </li>
+         <li><h3>设计</h3><span></span><span class="tip"></span><dd><b> <a href="#">UI</a> <a href="#">设计总监</a><a href="#">交互设计</a><a href="#">App设计</a></b>
+           <div class="leftdiv">
+                                     <dl>
+                        <dt><a href="#">后端开发</a></dt>
+                        <dd>
+                            <a href="#">Java</a> <a href="#">Python</a> <a href="#">PHP</a> <a href="#">C#</a>
+                            <a href="#">.NET</a> <a href="#">全栈工程师</a> <a href="#">数据挖掘</a>
+                        </dd>
+                    </dl>
+                    <dl>
+                        <dt><a href="#">前端开发</a></dt>
+                        <dd>
+                            <a href="#">COCOS2D-X</a> <a href="#">web前端</a> <a href="#">HTML5</a> <a href="#">JavaScript</a>
+                            <a href="#">U3D</a> <a href="#">Flash</a>
+                        </dd>
+                    </dl>
+                    <dl>
+                        <dt><a href="#">移动开发</a></dt>
+                        <dd>
+                            <a href="#">IOS</a> <a href="#">WP</a> <a href="#">ANDROID</a> <a href="#">HTML5</a>
+                        </dd>
+                    </dl>
+                    <dl>
+                        <dt><a href="#">测试</a></dt>
+                        <dd>
+                            <a href="#">测试工程师</a> <a href="#">自动化工程师</a> <a href="#">性能测试</a> <a href="#">功能测试</a> <a
+                                href="#">其他</a>
+                        </dd>
+                    </dl>
+                    <dl>
+                        <dt><a href="#">运维</a></dt>
+                        <dd>
+                            <a href="#">运维工程师</a> <a href="#">运维开发工程师</a> <a href="#">网络安全</a> <a href="#">系统安全</a>
+                            <a href="#">运维经理</a> <a href="#">其他</a>
+                        </dd>
+                    </dl>
+
+                    <dl class="fore7">
+                        <dt><a href="#">高端职位</a></dt>
+                        <dd>
+                            <a href="#">技术经理</a> <a href="#">技术总监</a> <a href="#">架构师</a> <a href="#">CTO</a>
+                            <a href="#">运维总监</a> <a href="#">项目总监</a> <a href="#">测试总监</a> <a href="#">安全专家</a>
+                            <a href="#">技术合伙人</a> <a href="#">其他</a>
+                        </dd>
+                    </dl>  
+                    </div></li>
+         <li><h3>运营</h3>
+          <span></span><span class="tip"></span><dd><b> <a href="#">新媒体运营</a> <a href="#">数据运营</a><a href="#">COO</a><a href="#">编辑</a></b>
+           <div class="leftdiv">
+                                <dl>
+                        <dt><a href="#">后端开发</a></dt>
+                        <dd>
+                            <a href="#">Java</a> <a href="#">Python</a> <a href="#">PHP</a> <a href="#">C#</a>
+                            <a href="#">.NET</a> <a href="#">全栈工程师</a> <a href="#">数据挖掘</a>
+                        </dd>
+                    </dl>
+                    <dl>
+                        <dt><a href="#">前端开发</a></dt>
+                        <dd>
+                            <a href="#">COCOS2D-X</a> <a href="#">web前端</a> <a href="#">HTML5</a> <a href="#">JavaScript</a>
+                            <a href="#">U3D</a> <a href="#">Flash</a>
+                        </dd>
+                    </dl>
+                    <dl>
+                        <dt><a href="#">移动开发</a></dt>
+                        <dd>
+                            <a href="#">IOS</a> <a href="#">WP</a> <a href="#">ANDROID</a> <a href="#">HTML5</a>
+                        </dd>
+                    </dl>
+                    <dl>
+                        <dt><a href="#">测试</a></dt>
+                        <dd>
+                            <a href="#">测试工程师</a> <a href="#">自动化工程师</a> <a href="#">性能测试</a> <a href="#">功能测试</a> <a
+                                href="#">其他</a>
+                        </dd>
+                    </dl>
+                    <dl>
+                        <dt><a href="#">运维</a></dt>
+                        <dd>
+                            <a href="#">运维工程师</a> <a href="#">运维开发工程师</a> <a href="#">网络安全</a> <a href="#">系统安全</a>
+                            <a href="#">运维经理</a> <a href="#">其他</a>
+                        </dd>
+                    </dl>
+                    <dl>
+                        <dt><a href="#">DBA</a></dt>
+                        <dd>
+                            <a href="#">MySQL</a> <a href="#">SQLServer</a> <a href="#">Oracle DB2</a> <a href="#"> 数据仓库 </a>
+                        </dd>
+                    </dl>
+                    <dl class="fore7">
+                        <dt><a href="#">高端职位</a></dt>
+                        <dd>
+                            <a href="#">技术经理</a> <a href="#">技术总监</a> <a href="#">架构师</a> <a href="#">CTO</a>
+                            <a href="#">运维总监</a> <a href="#">项目总监</a> <a href="#">测试总监</a> <a href="#">安全专家</a>
+                            <a href="#">技术合伙人</a> <a href="#">其他</a>
+                        </dd>
+                    </dl>  
+
+            </div>
+          </li>
+         <li><h3>市场与销售</h3>
+          <span></span><span class="tip"></span><b> <a href="#">市场推广</a> <a href="#">市场总监</a><a href="#">市场策划</a><a href="#">BD</a></b>
+           <div class="leftdiv">
+           
+                         <dl>
+                        <dt><a href="#">后端开发</a></dt>
+                        <dd>
+                            <a href="#">Java</a> <a href="#">Python</a> <a href="#">PHP</a> <a href="#">C#</a>
+                            <a href="#">.NET</a> <a href="#">全栈工程师</a> <a href="#">数据挖掘</a>
+                        </dd>
+                    </dl>
+                    <dl>
+                        <dt><a href="#">前端开发</a></dt>
+                        <dd>
+                            <a href="#">COCOS2D-X</a> <a href="#">web前端</a> <a href="#">HTML5</a> <a href="#">JavaScript</a>
+                            <a href="#">U3D</a> <a href="#">Flash</a>
+                        </dd>
+                    </dl>
+                    <dl>
+                        <dt><a href="#">移动开发</a></dt>
+                        <dd>
+                            <a href="#">IOS</a> <a href="#">WP</a> <a href="#">ANDROID</a> <a href="#">HTML5</a>
+                        </dd>
+                    </dl>
+                    <dl>
+                        <dt><a href="#">测试</a></dt>
+                        <dd>
+                            <a href="#">测试工程师</a> <a href="#">自动化工程师</a> <a href="#">性能测试</a> <a href="#">功能测试</a> <a
+                                href="#">其他</a>
+                        </dd>
+                    </dl>
+                    <dl>
+                        <dt><a href="#">运维</a></dt>
+                        <dd>
+                            <a href="#">运维工程师</a> <a href="#">运维开发工程师</a> <a href="#">网络安全</a> <a href="#">系统安全</a>
+                            <a href="#">运维经理</a> <a href="#">其他</a>
+                        </dd>
+                    </dl>
+                    <dl>
+                        <dt><a href="#">DBA</a></dt>
+                        <dd>
+                            <a href="#">MySQL</a> <a href="#">SQLServer</a> <a href="#">Oracle DB2</a> <a href="#"> 数据仓库 </a>
+                        </dd>
+                    </dl>
+                    <dl class="fore7">
+                        <dt><a href="#">高端职位</a></dt>
+                        <dd>
+                            <a href="#">技术经理</a> <a href="#">技术总监</a> <a href="#">架构师</a> <a href="#">CTO</a>
+                            <a href="#">运维总监</a> <a href="#">项目总监</a> <a href="#">测试总监</a> <a href="#">安全专家</a>
+                            <a href="#">技术合伙人</a> <a href="#">其他</a>
+                        </dd>
+                    </dl>  </div></li>
+         <li><h3>生产制造</h3></dt> <span></span><span class="tip"></span><b> <a href="#">生产管理</a> <a href="#">服装</a><a href="#">生产运营</a><a href="#">工业工程师</a></b>
+           <div class="leftdiv">
+                             <dl>
+                        <dt><a href="#">后端开发</a></dt>
+                        <dd>
+                            <a href="#">Java</a> <a href="#">Python</a> <a href="#">PHP</a> <a href="#">C#</a>
+                            <a href="#">.NET</a> <a href="#">全栈工程师</a> <a href="#">数据挖掘</a>
+                        </dd>
+                    </dl>
+                    <dl>
+                        <dt><a href="#">前端开发</a></dt>
+                        <dd>
+                            <a href="#">COCOS2D-X</a> <a href="#">web前端</a> <a href="#">HTML5</a> <a href="#">JavaScript</a>
+                            <a href="#">U3D</a> <a href="#">Flash</a>
+                        </dd>
+                    </dl>
+                    <dl>
+                        <dt><a href="#">移动开发</a></dt>
+                        <dd>
+                            <a href="#">IOS</a> <a href="#">WP</a> <a href="#">ANDROID</a> <a href="#">HTML5</a>
+                        </dd>
+                    </dl>
+                    <dl>
+                        <dt><a href="#">测试</a></dt>
+                        <dd>
+                            <a href="#">测试工程师</a> <a href="#">自动化工程师</a> <a href="#">性能测试</a> <a href="#">功能测试</a> <a
+                                href="#">其他</a>
+                        </dd>
+                    </dl>
+ </div></li>
+
+         </ul> 
+
+        </div>
+ <div class="search">
+<div class="search-left" id="search-left">    
+<a href="#"class="search-left-btn"id="btn">实习生</a>
+    <div class="search-left-down"style="display:none">
+        <a href="#">实习生</a>
+        <a href="#">应届生</a>
+    </div>
+    </div>
+    <div class="search-right">
+        <input class="search-input"type="text" placeholder="请输入职位或公司名称">
+        <a href="#"class="search-button">搜索</a>
+    </div>
+    </div>
+
+<div id="ifocus">
+ <div id="ifocus_pic">
+  <div id="ifocus_piclist" style="left:0; top:0;">
+   <ul>
+    <li><a href="#"><img src="img/lunbo1.jpg" alt="" /></a></li>
+    <li><a href="#"><img src="img/lunbo2.jpg" alt="" /></a></li>
+    <li><a href="#"><img src="img/lunbo3.jpg" alt="" /></a></li>
+
+   </ul>
+  </div>
+ </div>
+ <div id="ifocus_btn">
+  <ul>
+   <li class="current"><img src="img/lun1.jpg" alt="" /></li>
+   <li class="normal"><img src="img/lun2.jpg" alt="" /></li>
+   <li class="normal"><img src="img/lun3.jpg" alt="" /></li>
+  </ul>
+ </div>
+</div>
+<div class="hotEnprise">
+    <p class="tit">名企招聘 </p>
+    <ul class="hotLogo">
+        <li><a href="#"><img src="img/logo1.jpg"width="113"height="113" alt="">
+        <div class="hot_info"><h2>数云</h2><em></em><p>数云基于云平台和大数据做精准营销，目前行业第一
+        </p></div></a></li>
+        <li><a href="#"><img src="img/logo2.png"width="113"height="113" alt="">
+        <div class="hot_info"><h2>数云</h2><em></em><p>数云基于云平台和大数据做精准营销，目前行业第一
+        </p></div></a></li>
+        <li><a href="#"><img src="img/logo3.png"width="113"height="113" alt="">
+        <div class="hot_info"><h2>数云</h2><em></em><p>数云基于云平台和大数据做精准营销，目前行业第一
+        </p></div></a></li>
+        <li><a href="#"><img src="img/logo4.png"width="113"height="113" alt="">
+        <div class="hot_info"><h2>数云</h2><em></em><p>数云基于云平台和大数据做精准营销，目前行业第一
+        </p></div></a></li>
+        <li><a href="#"><img src="img/logo5.jpg"width="113"height="113" alt="">
+        <div class="hot_info"><h2>数云</h2><em></em><p>数云基于云平台和大数据做精准营销，目前行业第一
+        </p></div></a></li>
+        <li><a href="#"><img src="img/logo6.jpg"width="113"height="113" alt="">
+        <div class="hot_info"><h2>数云</h2><em></em><p>数云基于云平台和大数据做精准营销，目前行业第一
+        </p></div></a></li>
+
+</div>
+<div class="hotilogo">
+    <ul>
+        <li><a href="#"><img src="img/ilogo1.jpg" height="80"width="140"alt="">
+        <em>年轻向上的力量</em><div class="baidu">
+            <p>百度是全球最大的中文搜索引擎网站，是一家以“让人们最平等、便捷地获取信息，找到所求”为使命的公司。</p>
+        </div></a></li>
+        <li><a href="#"><img src="img/ilogo2.jpg" height="80"width="140"alt="">
+        <em>梦想起航，冲上云霄！</em><div class="baidu">
+            <p>百度是全球最大的中文搜索引擎网站，是一家以“让人们最平等、便捷地获取信息，找到所求”为使命的公司。</p>
+        </div></a></li>
+        <li><a href="#"><img src="img/ilogo3.jpg" height="80"width="140"alt="">
+        <em>看见你的光芒</em><div class="baidu">
+            <p>百度是全球最大的中文搜索引擎网站，是一家以“让人们最平等、便捷地获取信息，找到所求”为使命的公司。</p>
+        </div></a></li>
+        <li><a href="#"><img src="img/ilogo4.jpg" height="80"width="140"alt="">
+        <em>年轻放胆闯出来，世界能你来品味</em><div class="baidu">
+            <p>百度是全球最大的中文搜索引擎网站，是一家以“让人们最平等、便捷地获取信息，找到所求”为使命的公司。</p>
+        </div></a></li>
+    </ul>
+</div>
+<div class="container">
+<div class="content">
+    <div class="content-title">
+        <h1>热门职位</h1>
+    </div>
+    <div class="content-box">
+        <div class="ibox">
+        <div class="name"><a href="#">业务拓展实习生</a>
+        <span>宝马中国</span>
+        <span>北京 ¥150—200/天</span>  
+        </div>
+        <img src="img/tubiao1.png" width="100" height="100" alt="">
+        </div>
+        <div class="ibox">
+        <div class="name"><a href="#">业务拓展实习生</a>
+        <span>宝马中国</span>
+        <span>北京 ¥150—200/天</span>  
+        </div>
+        <img src="img/tubiao2.png" width="100" height="100" alt="">
+        </div>
+        <div class="ibox">
+        <div class="name"><a href="#">业务拓展实习生</a>
+        <span>宝马中国</span>
+        <span>北京 ¥150—200/天</span>  
+        </div>
+        <img src="img/tubiao3.png" width="100" height="100" alt="">
+        </div>
+        <div class="ibox">
+        <div class="name"><a href="#">业务拓展实习生</a>
+        <span>宝马中国</span>
+        <span>北京 ¥150—200/天</span>  
+        </div>
+        <img src="img/tubiao4.jpg" width="100" height="100" alt="">
+        </div>
+       <div class="ibox">
+        <div class="name"><a href="#">业务拓展实习生</a>
+        <span>宝马中国</span>
+        <span>北京 ¥150—200/天</span>  
+        </div>
+        <img src="img/tubiao5.jpg" width="100" height="100" alt="">
+        </div>
+
+        <div class="ibox">
+        <div class="name"><a href="#">业务拓展实习生</a>
+        <span>宝马中国</span>
+        <span>北京 ¥150—200/天</span>  
+        </div>
+        <img src="img/tubiao6.jpg" width="100" height="100" alt="">
+        </div>
+
+        <div class="ibox">
+        <div class="name"><a href="#">业务拓展实习生</a>
+        <span>宝马中国</span>
+        <span>北京 ¥150—200/天</span>  
+        </div>
+        <img src="img/tubiao7.jpg" width="100" height="100" alt="">
+        </div>
+        <div class="ibox">
+        <div class="name"><a href="#">业务拓展实习生</a>
+        <span>宝马中国</span>
+        <span>北京 ¥150—200/天</span>  
+        </div>
+        <img src="img/tubiao8.jpg" width="100" height="100" alt="">
+        </div>
+   <a href="#" class="more">更多职位</a>
+</div>   
+</div></div>
+<div class="team">
+    <p class="our">关于我们</p>
+    <div class="person">
+    <div class="imgs"> <img src="img/ps1.jpg"  width="320px"height="320px"alt=""></div>
+       
+        <h2>lijie</h2>
+        <p>Many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form</p>
+    </div>
+    <div class="person">
+        <div class="imgs"><img src="img/ps1.jpg" width="320px"height="320px"alt=""></div>
+        <h2>lijie</h2>
+        <p>Many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form</p>
+    </div>
+    <div class="person">
+       <div class="imgs"> <img src="img/ps1.jpg" width="320px"height="320px"alt=""></div>
+        <h2>lijie</h2>
+        <p>Many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form</p>
+    </div>
+</div>
+<div class="footer">
+    <div class="footmask"></div>
+    <div class="column">
+    <h2>IMPERARAN</h2><p>
+Ultricies erat in iaculis hendrerit sem quis rutrum purus fermentum in nec libero.
+</p> </div>
+</div>
+<script src="js/ifocus.js"></script>
+</body>
+</html>

@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font: inherit;
+     outline: none;
+}
+body {margin:0; padding:29px00; font:15px"\5B8B\4F53",sans-serif;background:#ffffff;} 
+div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,blockquote,p{padding:0; margin:0;} 
+table,td,tr,th,p,i{font-size:20px;} 
+li{list-style-type:none;} 
+ol,ul {list-style:none;} 
+h1,h2,h3,h4,h5,h6{ font-weight:normal;font-weight: bold;} 
+address,cite,code,em,th {font-weight:normal; font-style:normal;} 
+ 
+/*main*/
+body{
+    background:url(../img/zhuce.jpg);
+
+}
+
+form{
+    width: 500px;
+    height: 400px;
+    margin: auto;position: absolute;left: 0;right: 0;top: 0;bottom: 0;
+    background-color: white;opacity: 0.9;box-shadow: 1px 1px 10px 3px #898787;
+ }
+h1{font-size:20px;color:#fff;text-align: center;
+    background:#25A054;line-height: 50px;
+    font-weight: bold;letter-spacing:20px;margin-bottom: 40px}
+
+form div{ 
+   margin-bottom: 20px;
+   height: 30px;
+}
+form div label{
+    float: left;
+    clear:both;
+}
+form div label .text{
+    width:161px;
+    height:26px;
+    padding:0 2px;
+    border:1px solid #ccc;
+    
+}
+
+form div em{
+    display: inline-block;
+    font-size: 12px;
+    text-align: center;
+    color: #fff;
+    vertical-align: middle;
+    font-style: normal;
+    width: 53px;
+    height:15px;
+    line-height: 15px;
+    background-color:#2FF089
+}
+form div .active{
+    background-color: #25A054;
+}
+div span{
+    display:inline-block;
+    width: 120px;
+    text-align: right;
+}
+.submitBtn{
+    width:135px;
+    height:33px;
+    background-color:#25A054;
+    color: #fff;
+    margin:20px 0 0 125px;
+    cursor: pointer;
+}
+.changeimg{
+    width: 22px;
+    height:22px;
+    display: inline-block;
+    vertical-align: middle;
+   
+}
+.msg{
+    line-height: 12px;
+    color:#999;
+    float: left;
+    margin-left: 5px;
+    margin-top:10px;
+    display: none;font-size: 12px;
+}
+#password{position: relative;}
+.password{position: absolute;height:50px;width: 200px;left:300px;}
+     
+
+.ver_img{
+    height:35px;
+    width: 68px;
+    bottom: 0;
+    vertical-align: bottom;
+}

@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>email</title>
+<style>
+*{margin:0;padding: 0;text-decoration: none;}
+body { font:15px sans-serif;background:#50CC9B;color:#5D5D5D;}  
+table,td,tr,th{font-size:15px;} 
+li{list-style-type:none;} 
+ol,ul {list-style:none;} 
+h1,h2,h3,h4,h5,h6{font-weight: bold;} 
+address,cite,code,em,th {font-weight:normal; font-style:normal;} 
+img{border: none;}
+body{}
+.content_box{
+	position: absolute;
+	margin: auto;
+	height:300px;width: 400px;
+	left: 0;top:0;right: 0;bottom: 0;
+	background: #fff;box-shadow:  0 0 16px #92F0C3
+}
+form{
+	
+}
+.step{ width: 80%;
+	height:60px;text-align: left;margin:30px auto 50px;
+}
+.step li{float: left;display: inline-block;}
+.step .step1{color: #50CC9B;}
+.step li .step3:after{content:"";display:inline-block;height: 1px;
+width: 50px;background:#50CC9B;line-height: 40px;margin: 10px}
+.step li span{display: block;font-size:23px}
+.form_body{
+	text-align: center;width: 90%;margin: auto;
+}
+.form_body input{
+	width: 250px;height: 40px;display: block;
+	outline: none;margin: 20px auto;
+}
+.des_mail{display: inline-block;margin: 10px auto;}
+
+</style>
+	<script>
+     window.onload=function(){
+     	var tip=document.getElementById("tip");
+     	var emailsend=document.getElementById("emailsend");
+     	var li=document.getElementById("li");
+     	var div=document.getElementsByTagName("div");
+     	var div1=div[0];
+     	var div2=div[1];
+     	var input=document.getElementsByTagName("input");
+         var email=input[0];
+         var zhaohui=input[1];
+         var chakan=input[2];
+         var yan=/^([\w-+=_]+(?:\.[\w-+=_]+)*)@(?!163.com$|sina.com$)((?:[\w-]+\.)*\w[\w-]{0,66})\.([a-z]{2,6}(?:\.[a-z]{2})?)$/i;
+         email.onfocus=function(){
+         	tip.style.display="none";
+         }
+        email.onblur=function(){
+        	if(!yan.test(this.value)){
+        		tip.style.display="block";
+        	}else{
+        		return;
+        	}
+        }
+        zhaohui.onclick=function(){
+        	if(yan.test(email.value)){
+        	emailsend.innerHTML=email.value;
+        	div1.style.display="none";
+        	div2.style.display="block";
+        	li.className="step1";
+        }else{
+        	return;
+        }
+        }
+     }
+	</script>
+</head>
+<body>
+	<section class="content_box">
+		<form action="">
+			<ul class="step" id="step">
+				<li class="step1"><span class="step3 step2">Step1</span>输入邮箱地址</li>
+				<li id="li"><span class="step3">Step2</span>验证邮箱</li>
+				<li><span >Step3</span>重置密码</li>
+			</ul>
+			<div class="form_body" >
+				<input  type="text" required="required" autocomplete="on" autofocus="autofocus"placeholder="请输入注册时使用的邮箱地址">
+				<p id="tip" style="display:none">请输入正确的邮箱！</p>
+				<input type="button"value="找回密码">
+			</div>
+			<div class="form_body" style="display:none">
+				<div class="input_item clearfix">
+					<h3 class="reset_mail">密码重置邮件已发送至你的邮箱：
+						<span  id="emailsend"class="des_mail">294691526@qq.com</span>
+					</h3>
+					<p class="reset_tips">请在24小时内登录你的邮箱接收邮件,链接激活后可重置密码。</p>
+				</div>
+				<div class="input_item clearfix" id="gotoVerify">
+					<input type="button" class="btn btn_green btn_active btn_block" value="登录邮箱查看" id="step2">
+				</div>
+			</div>
+		</form>
+	</section>
+
+</body>
+</html>

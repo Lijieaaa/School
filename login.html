@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>login</title>
+	<style>
+    body{background: url("img/bg.jpg") no-repeat;background-size: 100%;height:593px;max-height: 700px; }
+    .div{width:300px;height:260px;padding:30px 30px;margin:130px auto;position: relative;background-color:#E5E5E5;box-shadow: 1px 1px 8px 3px #C7C7C7;
+    	position: absolute;margin:auto;left: 0; right: 0;top: 0;bottom: 0;}
+    input{display: block;width: 270px;height:40px;text-align: left;font-size: 20px;margin:50px;box-shadow:2px #757476 inset;margin:20px;border-radius:5px;outline: none;border: none;box-shadow: 1px 1px 8px 3px #C7C7C7;padding-left:10px }
+    .sub{text-align: center;color:#FFFFFF;font-weight: bold;background-color: #39D9F6}
+    .check{margin:0 10px 10px 20px;width:20px;height:20px;display: inline-block;margin-bottom: 10px;line-height: 10px;float: left;border: none;outline: none;}
+    label{font-size: 15px;display: inline-block;line-height: 20px;color:#707070}
+    a{position: absolute;right: 20px;text-decoration: none; color:#707070;
+    }
+    #tip{font-size: 18px;margin-left: 30px;line-height:0;display:none;font-family: "Arial";color:#707070}
+.sub:hover{cursor: pointer;background-color: #2F87C6;	  	
+	transition: 1.5s all;
+	-webkit-transition: 1.5s all;
+	-moz-transition: 1.5s all;
+	-o-transition: 1.5s all;}
+	.icon{
+	background:url(img/icons.png)  no-repeat 0px 0px;
+	height:30px;
+	width:30px;
+	display: block;
+	float: right;
+	margin: 10px 10px 0 auto;
+}
+.user{
+	background: url(img/icons.png) no-repeat 7px 1px;
+	
+}
+.lock{
+	background: url(img/icons.png) no-repeat -25px 1px;
+}
+
+	</style>
+	<script>
+window.onload=function(){
+		var text=document.getElementById("text");
+		var tip=document.getElementById("tip");
+		text.onfocus=function(){
+			tip.style.display="none";
+		}
+		text.onblur=function(){
+		var phone=/^1[358][0123456789]\d{8}$/; 
+//电子邮箱验证
+var email=/^([\w-+=_]+(?:\.[\w-+=_]+)*)@(?!163.com$|sina.com$)((?:[\w-]+\.)*\w[\w-]{0,66})\.([a-z]{2,6}(?:\.[a-z]{2})?)$/i;
+if(phone.test(this.value)||email.test(this.value)){
+tip.style.display="none";
+}
+
+else{
+	tip.style.display="block";
+}
+	}
+		}
+		//手机号验证
+
+	</script>
+</head>
+<body>
+	<div class="div">
+
+		<form action=""><a href="#" class=" icon user"></a>
+		<input  id="text" autocomplete="on" autofocus="autofocus" required="required"  type="email"placeholder="手机号/email"></a><p id="tip">
+		！请输入有效的手机号或email</p>
+		<a href="#" class=" icon lock"></a>
+		<input type="password"required="required" placeholder="密码">
+		<div><input  class="check"type="checkbox" />
+		<label for="#">下次自动登陆</label>
+		
+		<a href="email.html">忘记密码？</a></div>
+		<input class="sub"type="submit"value="登&nbsp陆">
+		<a href="zhuce.html">立即注册&gt</a>
+
+		</form>
+	</div>
+</body>
+</html>
